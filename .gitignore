@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and config
+.env
+.env.*
+!.env.example
+
+# Databricks
+.databricks/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
