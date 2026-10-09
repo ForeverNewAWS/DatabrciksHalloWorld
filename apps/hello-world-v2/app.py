@@ -11,7 +11,7 @@ chart_data = pd.DataFrame({'x': [x for x in range(30)],
 
 # Define the app layout
 dash_app.layout = dbc.Container([
-    dbc.Row([dbc.Col(html.H1('Hello Forevernew Databricks'), width=12)]),
+    dbc.Row([dbc.Col(html.H1('Hello Forevernew Databricks testing'), width=12)]),
     dcc.Graph(
         id='fare-scatter',
         figure=px.scatter(chart_data, x='x', y='y',
